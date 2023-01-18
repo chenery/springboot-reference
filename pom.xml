@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>nz.co.chenery</groupId>
-	<artifactId>code-challenge-task-manage</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>code-challenge-task-manage</name>
-	<description>Task Management API Suite</description>
+	<artifactId>springboot-reference</artifactId>
+	<version>1.0.0</version>
+	<name>springboot-reference</name>
+	<description>Example of using Spring Boot for a REST API</description>
 	<properties>
 		<java.version>19</java.version>
 	</properties>
