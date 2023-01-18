@@ -42,7 +42,7 @@ You will need to provide APIs for the following actions:
   `mvn spring-boot:run`
 - However, to create an artefact (including running the tests) that can be deployed into production:
   `mvn clean package`
-  `java -jar target/code-challenge-task-manage-0.0.1-SNAPSHOT.jar`
+  `java -jar target/springboot-reference-1.0.0.jar`
 - The application API will be available at [http://localhost:8080/api/tasks](http://localhost:8080/api/tasks)
 
 ## Assumptions
@@ -58,4 +58,8 @@ You will need to provide APIs for the following actions:
 - The build and deployment of the application can be containerized to make explicit the broader dependencies of the application.
 - Fetch all API endpoints should be limited or paged to prevent excessive resource use.
 - It is often considered good practice not to expose the database PK value to a public API, so DB engines can be changed etc.
+
+# Things to do:
+
+- Makefile
 

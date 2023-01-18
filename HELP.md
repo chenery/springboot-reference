@@ -1,8 +1,3 @@
-# Read Me First
-The following was discovered as part of building this project:
-
-* The original package name 'nz.co.solnet.code-challenge-task-manage' is invalid and this project uses 'nz.co.solnet.codechallengetaskmanage' instead.
-
 # Getting Started
 
 ### Reference Documentation
@@ -26,3 +21,18 @@ The following guides illustrate how to use some features concretely:
 * [Accessing MongoDB Data with REST](https://spring.io/guides/gs/accessing-mongodb-data-rest/)
 * [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
 
+
+
+# Terraform
+
+* https://cloud.google.com/docs/terraform/best-practices-for-terraform
+
+`
+terraform init
+`
+
+
+# AWS
+
+* Sydney 
+* MFA with CLI https://aws.amazon.com/premiumsupport/knowledge-center/authenticate-mfa-cli/

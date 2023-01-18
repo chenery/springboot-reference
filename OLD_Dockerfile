@@ -1,0 +1,4 @@
+FROM openjdk:19-alpine
+MAINTAINER chenery.co.nz
+COPY target/springboot-reference-1.0.0.jar springboot-reference-1.0.0.jar
+ENTRYPOINT ["java","-jar","/springboot-reference-1.0.0.jar"]
